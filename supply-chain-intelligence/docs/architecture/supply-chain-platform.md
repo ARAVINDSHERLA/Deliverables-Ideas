@@ -1509,7 +1509,7 @@ This architecture is very close to what global organizations in manufacturing, l
 
 # Enterprise Supply Chain Intelligence Platform
 
-
+![Enterprise Architecture](./images/enterprise-supply-chain-intelligence-architecture.png)
 
 
 
