@@ -710,3 +710,71 @@ and you can explain the entire **Part Shortage → Risk Analysis → Inventory A
 
 > I designed the architecture, defined agent responsibilities, implemented orchestration workflows, integrated enterprise systems, and drove the end-to-end solution from design to deployment.
 
+Q: How were alternative suppliers identified? is only registered vendors
+
+In most enterprise supply chains, **yes initially it is usually from approved/registered vendors** because of compliance, contracts, quality certifications, and procurement policies.
+
+### Practical Interview Answer
+
+> The supplier agent primarily evaluated approved vendors from the supplier master database based on lead time, inventory availability, historical OTIF performance, cost, capacity, and risk scores. If no approved supplier could meet the requirement, the workflow escalated to procurement teams for sourcing and qualification of new vendors.
+
+---
+
+### Real-World Flow
+
+```text id="2m8wtm"
+Part Shortage
+      │
+      ▼
+Approved Vendor Search
+      │
+      ├── Vendor A
+      ├── Vendor B
+      ├── Vendor C
+      │
+      ▼
+Ranking Engine
+      │
+      ▼
+Recommended Supplier
+```
+
+---
+
+### More Advanced Agentic AI Version
+
+```text id="t7x5lj"
+Part Shortage
+      │
+      ▼
+Supplier Agent
+      │
+      ├── Approved Vendors
+      ├── Strategic Vendors
+      ├── Regional Vendors
+      └── Spot-Buy Vendors
+      │
+      ▼
+Risk & Cost Analysis
+      │
+      ▼
+Recommendation
+```
+
+---
+
+### If Interviewer Asks "Can AI Find New Suppliers?"
+
+You can say:
+
+> Yes. Beyond approved vendors, AI can analyze supplier marketplaces, procurement networks, historical sourcing data, and supplier catalogs to identify potential alternative suppliers. However, onboarding a new supplier still requires procurement and compliance approval before execution.
+
+This answer shows:
+
+* Enterprise procurement knowledge
+* Compliance awareness
+* AI capability understanding
+
+which is exactly what a Principal Engineer or Supply Chain AI leader is expected to demonstrate.
+
+
