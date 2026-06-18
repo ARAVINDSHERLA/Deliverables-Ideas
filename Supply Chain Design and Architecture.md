@@ -1507,6 +1507,7 @@ This architecture is very close to what global organizations in manufacturing, l
 
 
 
+./Enterprise supply chain intelligence architecture.png
 
 
 
