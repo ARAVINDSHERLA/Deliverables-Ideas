@@ -1239,3 +1239,311 @@ This gives both:
 * Automated shortage detection and fulfillment workflows
 
 which aligns very closely with your **Agentic AI–driven Supply Chain Part Shortage Fulfillment** use case.
+
+
+** What is SARIMAX?
+I think you mean **SARIMAX** (often pronounced "Sari-Max"), not "SAIRMAMAX".
+
+SARIMAX stands for:
+
+**Seasonal AutoRegressive Integrated Moving Average with eXogenous variables**
+
+It is an extension of:
+
+```text
+ARIMA
+  +
+Seasonality
+  +
+External Features
+```
+
+---
+
+# Evolution
+
+### 1. ARIMA
+
+Uses only historical values.
+
+```text
+Past Sales
+     ↓
+Future Sales
+```
+
+Example:
+
+```text
+100
+110
+120
+130
+?
+```
+
+Forecast based only on previous sales.
+
+---
+
+### 2. SARIMA
+
+Adds seasonality.
+
+```text
+Sales
+ +
+Weekly Pattern
+ +
+Monthly Pattern
+ +
+Yearly Pattern
+```
+
+Example:
+
+```text
+Every December
+Sales Increase 40%
+```
+
+SARIMA can learn this pattern.
+
+---
+
+### 3. SARIMAX
+
+Adds external variables (Exogenous Variables).
+
+```text
+Sales
+ +
+Seasonality
+ +
+Promotions
+ +
+Weather
+ +
+Holidays
+ +
+Fuel Price
+ +
+Marketing Spend
+```
+
+This is where SARIMAX becomes much more useful for business forecasting.
+
+---
+
+# Example
+
+Suppose you sell Air Conditioners.
+
+Historical sales:
+
+```text
+Jan  = 100
+Feb  = 120
+Mar  = 140
+Apr  = 200
+May  = 350
+```
+
+Temperature:
+
+```text
+Jan = 20°C
+Feb = 24°C
+Mar = 28°C
+Apr = 35°C
+May = 42°C
+```
+
+SARIMAX can learn:
+
+```text
+Higher Temperature
+      ↓
+Higher AC Sales
+```
+
+ARIMA cannot directly understand temperature.
+
+---
+
+# Components of SARIMAX
+
+### AR (AutoRegression)
+
+Uses previous values.
+
+```text
+Sales Yesterday
+Sales Last Week
+```
+
+---
+
+### I (Integrated)
+
+Removes trend.
+
+Example:
+
+```text
+100
+110
+120
+130
+140
+```
+
+Convert into:
+
+```text
+10
+10
+10
+10
+```
+
+to make data stationary.
+
+---
+
+### MA (Moving Average)
+
+Uses previous forecast errors.
+
+Example:
+
+```text
+Forecast = 100
+Actual = 110
+Error = 10
+```
+
+Future forecasts account for these errors.
+
+---
+
+### Seasonal Component
+
+Learns repeating patterns.
+
+Example:
+
+```text
+Weekend Demand
+
+Festival Demand
+
+Year-end Demand
+```
+
+---
+
+### X (Exogenous Variables)
+
+External inputs.
+
+Examples:
+
+```text
+Promotion
+Holiday
+Weather
+Inflation
+Inventory
+Fuel Cost
+```
+
+---
+
+# Real Demand Forecasting Example
+
+Features:
+
+```text
+Historical Sales
+Holiday Flag
+Promotion Flag
+Temperature
+Rainfall
+```
+
+Input:
+
+| Day | Sales | Promotion | Temperature |
+| --- | ----- | --------- | ----------- |
+| 1   | 100   | 0         | 30          |
+| 2   | 120   | 1         | 32          |
+| 3   | 150   | 1         | 35          |
+
+Output:
+
+```text
+Next Day Demand = 165
+```
+
+---
+
+# SARIMAX vs XGBoost
+
+| Feature               | SARIMAX              | XGBoost                   |
+| --------------------- | -------------------- | ------------------------- |
+| Time Series           | Excellent            | Good                      |
+| Seasonality           | Excellent            | Needs engineered features |
+| External Variables    | Yes                  | Yes                       |
+| Interpretability      | Very High            | Medium                    |
+| Large Datasets        | Poor                 | Excellent                 |
+| Millions of SKUs      | Not Suitable         | Suitable                  |
+| Real-time Forecasting | Limited              | Good                      |
+| Training Speed        | Slower on large data | Faster                    |
+| Enterprise Scale      | Limited              | Excellent                 |
+
+---
+
+# When to Use SARIMAX
+
+Good for:
+
+✅ Single product forecasting
+✅ Small-medium datasets
+✅ Strong seasonality
+✅ Business wants explainability
+✅ Economic forecasting
+
+Examples:
+
+* Retail store sales
+* Electricity demand
+* Fuel consumption
+* Monthly revenue forecasting
+
+---
+
+# When NOT to Use SARIMAX
+
+Avoid when:
+
+❌ 100,000+ SKUs
+❌ Billions of records
+❌ Hundreds of features
+❌ Real-time forecasting
+❌ Complex supply-chain forecasting
+
+For those cases, use:
+
+* **XGBoost**
+* **LightGBM**
+* **CatBoost**
+* **LSTM**
+* **Temporal Fusion Transformer (TFT)**
+
+---
+
+### Interview Answer
+
+> "SARIMAX is a statistical time-series forecasting model that extends ARIMA by incorporating both seasonality and exogenous variables such as promotions, holidays, weather, and pricing factors. It is highly interpretable and works well for small to medium forecasting problems with clear seasonal patterns. However, for large-scale enterprise demand forecasting involving thousands of products and many features, models such as XGBoost, LightGBM, or Temporal Fusion Transformers generally provide better scalability and accuracy."
+
