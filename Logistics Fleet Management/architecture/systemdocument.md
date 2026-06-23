@@ -625,3 +625,386 @@ Q: there will be some trigger based on the event, replan in the agentic ai syste
 
 <img width="1440" height="1840" alt="image" src="https://github.com/user-attachments/assets/2bc43f02-2d5c-4f45-b2c5-cdbdd20c33c5" />
 
+Yes. In an Agentic AI logistics and transportation system, **replanning** is one of the most important capabilities. The system continuously monitors events and dynamically changes execution plans when disruptions occur.
+
+## High-Level Flow
+
+```text
+Monitor Agent
+       |
+       v
+Event Detection
+       |
+       v
+Impact Analysis Agent
+       |
+       v
+Replanning Agent
+       |
+       v
+Optimization Agent
+       |
+       v
+Execution Agent
+       |
+       v
+Feedback Loop
+```
+
+---
+
+# Event Triggers → Replanning Scenarios
+
+## 1. Vehicle Breakdown
+
+### Trigger
+
+```json
+{
+  "event":"vehicle_breakdown",
+  "truck_id":"TRK-101",
+  "location":"Hyderabad"
+}
+```
+
+### Agent Action
+
+1. Detect breakdown
+2. Identify affected shipments
+3. Find nearest spare vehicle
+4. Recalculate routes
+5. Notify customers
+
+### Replanning
+
+```text
+Original:
+Truck A → Customer 1 → Customer 2
+
+New:
+Truck B takes Customer 2 delivery
+Truck C takes Customer 1 delivery
+```
+
+---
+
+## 2. Traffic Congestion
+
+### Trigger
+
+GPS + Traffic API
+
+```text
+Expected ETA: 3 hrs
+Current ETA: 8 hrs
+```
+
+### Agent Decision
+
+* Reroute vehicle
+* Reschedule unloading slot
+* Update customer ETA
+
+### Replanning Objective
+
+Minimize delay penalty.
+
+---
+
+## 3. Weather Disruption
+
+### Trigger
+
+Floods
+Cyclones
+Heavy Rain
+Snow
+
+### Example
+
+```text
+Port Closed
+```
+
+### Agent Workflow
+
+```text
+Weather Agent
+      |
+Impact Agent
+      |
+Replanning Agent
+      |
+Alternative Port Selection
+```
+
+Possible actions:
+
+* Change route
+* Use rail transport
+* Delay shipment
+* Split shipment
+
+---
+
+## 4. Driver Unavailability
+
+### Trigger
+
+```text
+Driver sick
+Driver exceeded legal driving hours
+```
+
+### Replanning
+
+Find:
+
+* Available certified driver
+* Nearby replacement vehicle
+
+Recalculate delivery schedule.
+
+---
+
+## 5. Inventory Shortage
+
+### Trigger
+
+```text
+Warehouse A:
+Available = 100
+
+Demand = 150
+```
+
+### Agent Response
+
+```text
+Warehouse A -> 100 units
+Warehouse B -> 50 units
+```
+
+Multi-warehouse fulfillment plan generated.
+
+---
+
+## 6. Shipment Delay
+
+### Trigger
+
+```text
+Container stuck at customs
+```
+
+### Agent Actions
+
+* Prioritize critical orders
+* Allocate alternate stock
+* Expedite transport
+
+---
+
+## 7. Customs Hold
+
+### Trigger
+
+```text
+Missing document
+Compliance issue
+```
+
+### Agents Involved
+
+```text
+Compliance Agent
+Documentation Agent
+Customs Agent
+```
+
+### Replanning
+
+* Hold shipment
+* Route alternative stock
+* Notify stakeholders
+
+---
+
+## 8. Port Congestion
+
+### Trigger
+
+```text
+Port utilization > 95%
+```
+
+### Replanning
+
+Original:
+
+```text
+Chennai Port
+```
+
+Alternative:
+
+```text
+Visakhapatnam Port
+```
+
+Cost vs Delay optimization performed.
+
+---
+
+## 9. Fuel Price Spike
+
+### Trigger
+
+```text
+Fuel cost increases 20%
+```
+
+### Agent Response
+
+Optimize:
+
+* Consolidated shipments
+* Full truck loads
+* Alternate carriers
+
+---
+
+## 10. Demand Surge
+
+### Trigger
+
+```text
+Festival season
+Flash sale
+```
+
+### Replanning
+
+Increase:
+
+* Fleet capacity
+* Warehouse workforce
+* Delivery slots
+
+---
+
+# Multi-Agent Replanning Architecture
+
+```text
+               Event Bus
+                    |
+    ----------------------------------
+    |         |         |            |
+Traffic   Weather   Customs    Inventory
+Agent      Agent      Agent      Agent
+    \         |         |          /
+     \        |         |         /
+      ---------------------------
+                |
+        Impact Analysis Agent
+                |
+        Replanning Agent
+                |
+      Route Optimization Agent
+                |
+        Execution Agent
+                |
+         Human Approval
+           (Optional)
+```
+
+---
+
+# Replanning Decision Factors
+
+The Replanning Agent evaluates:
+
+| Factor           | Example                      |
+| ---------------- | ---------------------------- |
+| Cost             | Fuel, tolls                  |
+| ETA              | Delivery commitments         |
+| Capacity         | Vehicle utilization          |
+| SLA              | Premium customer commitments |
+| Risk             | Weather, strikes             |
+| Compliance       | Driver hours, customs        |
+| Carbon Footprint | Sustainability goals         |
+
+---
+
+# AI Techniques Used
+
+### Predictive AI
+
+Predict disruptions before they happen.
+
+Examples:
+
+* Delay prediction
+* Vehicle failure prediction
+* Demand forecasting
+
+### Optimization AI
+
+Uses:
+
+* Constraint Programming
+* Linear Programming
+* Genetic Algorithms
+* Reinforcement Learning
+
+### Agentic AI
+
+Autonomously:
+
+* Detects events
+* Evaluates impact
+* Creates multiple plans
+* Simulates outcomes
+* Selects best plan
+* Executes actions
+
+---
+
+# Enterprise Example
+
+Consider a shipment:
+
+```text
+Mumbai
+   ↓
+Hyderabad
+   ↓
+Bangalore
+```
+
+Suddenly:
+
+```text
+Heavy rainfall near Hyderabad
+Road closed
+```
+
+Agentic workflow:
+
+```text
+Monitor Agent detects closure
+          ↓
+Impact Agent calculates delay
+          ↓
+Replanning Agent creates
+3 alternative routes
+          ↓
+Optimization Agent scores options
+          ↓
+Execution Agent updates route
+          ↓
+Customer Notification Agent
+sends revised ETA
+```
+
+This is the core difference between traditional logistics software and Agentic AI: the system doesn't just raise an alert—it autonomously evaluates alternatives, replans, and executes the optimal course of action while keeping humans in the loop where required.
