@@ -191,15 +191,14 @@ That structure lets you adapt naturally to different interviewers while keeping 
 
 Tell me about yourself?   Identity -->Evidence-->Future Value
 
+Distributed Systems → Platform Engineering → AI-enabled Enterprise Platforms
 ## Present:[Who I Am & My Strengths]
 
 Hi, I'm Aravind Kumar Sherla, a Principal Software Engineer with over 14 years of experience designing and delivering enterprise-scale software platforms across the telecommunications, supply chain & manufacturing, and BFSI domains.
 
+Currently, I work as a Technical Consultant at TS Tech Solutions, where I lead architecture and platform modernization initiatives for global clients. I design cloud-native, event-driven, and AI-powered enterprise solutions using Java, Spring Boot, Kafka, Kubernetes, and cloud technologies to solve complex scalability and integration challenges, modernize legacy platforms, and improve operational efficiency and accelerate business transformation.
 
-Currently, I work as a Technical Consultant at TS Tech Solutions, where I lead platform modernization and architecture initiatives for global clients. I design cloud-native, event-driven, and workflow automation solutions using Java, Spring Boot, Kafka, Kubernetes, AI technologies, and cloud platforms to solve complex scalability and integration challenges, improve operational efficiency, and accelerating the delivery of business capabilities/outcomes.
-
-Over the years, I've specialized in building high-throughput, multi-tenant distributed systems with a strong focus on platform engineering, messaging systems, scalability, resilience, and performance optimization.
-
+Over the years, I've specialized in high-throughput, multi-tenant distributed systems, messaging platforms, and performance engineering. More recently, I've expanded into AI-enabled platform engineering, integrating LLMs, intelligent workflow automation, and multi-agent systems to build the next generation of autonomous enterprise applications.
 
 Past: [Major Scale & Innovation Accomplishments(200X Scale, AI/SLM, Blockchain]
   
