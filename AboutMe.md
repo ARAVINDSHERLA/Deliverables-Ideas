@@ -156,12 +156,10 @@ I'm passionate about solving complex engineering challenges and building technol
 
 # 60-Second Version
 
-Hi, I'm Aravind Kumar Sherla, a Principal Software Engineer with over 14 years of experience designing and delivering enterprise-scale software platforms across the telecommunications, 
+Hi, I'm Aravind Kumar Sherla, a Principal Software Engineer with over 14 years of experience designing and delivering enterprise-scale software platforms across the cpass, 
 supply chain & manufacturing, and BFSI domains.
 
-Currently, I work as a Technical Consultant at TS Tech Solutions, where I lead platform modernization and architecture initiatives for global clients.
-I design cloud-native, event-driven, and AI-enabled workflow automation solutions using Java, Spring Boot, Kafka, Kubernetes, and cloud technologies 
-to solve scalability and integration challenges while improving operational efficiency and accelerating business outcomes.
+Currently, I work as a Technical Consultant at TS Tech Solutions, where I lead platform modernization and architecture initiatives for global clients. I design cloud-native, event-driven, and AI-powered workflow automation solutions using Java, Spring Boot, Kafka, Kubernetes, and cloud technologies to solve complex integration challenges, improve scalability, enhance operational efficiency, and accelerate business outcomes.
 
 Previously, at Tanla Platforms, I played a key role in scaling the Rich Communication Messaging platform from approximately 5 million to over 1 billion messages per day, 
 reducing infrastructure costs by around 30% while maintaining 99.9% platform availability.
@@ -189,14 +187,18 @@ WHY AM I HERE?
 That structure lets you adapt naturally to different interviewers while keeping your story consistent and concise.
 
 
+Currently, I work as a Technical Consultant at TS Tech Solutions, where I lead platform modernization and architecture initiatives as part of digital transformation for global enterprise clients. My focus is on designing cloud-native, event-driven, and AI-powered solutions that simplify complex integrations, improve scalability, and enhance operational efficiency. By leveraging Java, Spring Boot, Kafka, Kubernetes, and cloud technologies, I build the resilient backend foundations necessary to accelerate these enterprise journeys.
+
 Tell me about yourself?   Identity -->Evidence-->Future Value
+
 
 Distributed Systems → Platform Engineering → AI-enabled Enterprise Platforms
 ## Present:[Who I Am & My Strengths]
 
 Hi, I'm Aravind Kumar Sherla, a Principal Software Engineer with over 14 years of experience designing and delivering enterprise-scale software products and platforms across the cPass, supply chain & manufacturing, and BFSI domains.
 
-Currently, I work as a Technical Consultant at TS Tech Solutions, where I lead platform modernization and architecture initiatives as part of digital transformation for global enterprise clients. My focus is on designing cloud-native, event-driven, and AI-powered solutions that simplify complex integrations, improve scalability, and enhance operational efficiency. By leveraging Java, Spring Boot, Kafka, Kubernetes, and cloud technologies, I build the resilient backend foundations necessary to accelerate these enterprise journeys
+Currently, I work as a Technical Consultant at TS Tech Solutions, where I lead platform modernization and architecture initiatives for global clients. I design cloud-native, event-driven, and AI-powered workflow automation solutions using Java, Spring Boot, Kafka, Kubernetes, and cloud technologies to solve complex integration challenges, improve scalability, enhance operational efficiency, and accelerate business outcomes.
+(Simplify complex integrations → Improve scalability → Enhance operational efficiency → Accelerate digital transformation)
 
 Over the years, I've specialized in high-throughput, multi-tenant distributed systems, messaging systems, and performance engineering. More recently, I've expanded into AI-enabled platform engineering, integrating LLMs, intelligent workflow automation, and multi-agent systems to build the next generation of autonomous enterprise applications.
 
