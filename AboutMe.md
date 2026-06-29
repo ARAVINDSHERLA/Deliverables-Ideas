@@ -256,7 +256,7 @@ Beyond technology, I enjoy mentoring engineers, driving architecture and design 
 engineering practices that improve software quality and engineering excellence.
 
 Finish with:
-This opportunity aligns perfectly with my experience in solving complex engineering problems, shaping platform architecture, and building innovative products that deliver long-term business value.
+This opportunity aligns well with my experience in solving complex engineering challenges, driving platform architecture, and delivering innovative products that create long-term business value.
 
 
 My favorite version:
@@ -343,6 +343,26 @@ Why this role?
 Architecture
 Innovation
 Business impact
+
+
+
+## Tell me about yourself -Final Version
+
+Hi, I'm Aravind Kumar Sherla, a Principal Software Engineer with over 14 years of experience designing and delivering enterprise-scale software products and platforms across the CPaaS, supply chain & manufacturing, and BFSI domains.
+
+Currently, I work as a Technical Consultant at TS Tech Solutions, where I lead platform modernization and architecture initiatives for global clients. I design cloud-native, event-driven, and AI-powered workflow automation solutions using Java, Spring Boot, Kafka, Kubernetes, and cloud technologies to solve complex integration challenges, improve scalability, enhance operational efficiency, and accelerate business outcomes.
+
+Throughout my career, I've specialized in designing high-throughput, distributed, multi-tenant platforms with a strong focus on messaging systems, platform engineering, and performance optimization. More recently, I've been helping organizations adopt AI-enabled platforms by integrating LLMs, intelligent workflow automation, and multi-agent systems into enterprise solutions.
+
+Previously, I spent several years at Tanla Platforms, where I led the architecture and scaling of the Rich Communication Messaging platform from approximately 5 million messages per day to more than 1 billion messages per day. Along the way, I architected a unified omnichannel communication platform supporting WhatsApp, RCS, SMS, and Google Business Messages, migrated the platform from self-managed WhatsApp infrastructure to Meta Cloud APIs, reduced customer onboarding time from 21 days to less than 15 minutes through automation, and built an AI-driven operations automation engine to improve operational efficiency and reduce manual effort.
+
+Earlier in my career at Dell Technologies, I built enterprise-scale order fulfillment and workflow automation platforms, which gave me a strong foundation in business process automation, enterprise integration, and large-scale platform modernization.
+
+What has remained consistent throughout my career is my passion for solving complex engineering challenges. Whether it's modernizing legacy platforms, designing resilient distributed systems, building multi-tenant SaaS platforms, or applying AI to automate business workflows, I enjoy turning complex business problems into scalable, maintainable technology solutions.
+
+Beyond the technical aspects, I enjoy mentoring engineers, driving architecture and design reviews, collaborating with cross-functional stakeholders, and helping engineering teams establish practices that improve software quality and delivery excellence.
+
+This opportunity aligns naturally with my experience in solving complex engineering challenges, shaping platform architecture, and delivering innovative products that create long-term business value.
 
 
 
