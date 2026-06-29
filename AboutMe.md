@@ -194,13 +194,41 @@ Tell me about yourself?   Identity -->Evidence-->Future Value
 Distributed Systems → Platform Engineering → AI-enabled Enterprise Platforms
 ## Present:[Who I Am & My Strengths]
 
-Hi, I'm Aravind Kumar Sherla, a Principal Software Engineer with over 14 years of experience designing and delivering enterprise-scale software platforms across the telecommunications, supply chain & manufacturing, and BFSI domains.
+Hi, I'm Aravind Kumar Sherla, a Principal Software Engineer with over 14 years of experience designing and delivering enterprise-scale software products and platforms across the cPass, supply chain & manufacturing, and BFSI domains.
 
-Currently, I work as a Technical Consultant at TS Tech Solutions, where I lead architecture and platform modernization initiatives for global clients. I design cloud-native, event-driven, and AI-powered enterprise solutions using Java, Spring Boot, Kafka, Kubernetes, and cloud technologies to solve complex scalability and integration challenges, modernize legacy platforms, and improve operational efficiency and accelerate business transformation.
+Currently, I work as a Technical Consultant at TS Tech Solutions, where I lead platform modernization and architecture initiatives as part of digital transformation for global enterprise clients. My focus is on designing cloud-native, event-driven, and AI-powered solutions that simplify complex integrations, improve scalability, and enhance operational efficiency. By leveraging Java, Spring Boot, Kafka, Kubernetes, and cloud technologies, I build the resilient backend foundations necessary to accelerate these enterprise journeys
 
-Over the years, I've specialized in high-throughput, multi-tenant distributed systems, messaging platforms, and performance engineering. More recently, I've expanded into AI-enabled platform engineering, integrating LLMs, intelligent workflow automation, and multi-agent systems to build the next generation of autonomous enterprise applications.
+Over the years, I've specialized in high-throughput, multi-tenant distributed systems, messaging systems, and performance engineering. More recently, I've expanded into AI-enabled platform engineering, integrating LLMs, intelligent workflow automation, and multi-agent systems to build the next generation of autonomous enterprise applications.
 
 Past: [Major Scale & Innovation Accomplishments(200X Scale, AI/SLM, Blockchain]
+Scale(1B+ messages/day)
+Platform Engineering
+Cloud Modernization
+Business Impact(Faster On-boarding, Go-to-Market)
+AI Innovation:
+
+Scale(1b+ messages/day)
+Platform Engineering
+Cloud Modernization
+Business Impact(Faster On-boarding, Go-to-Market)
+AI Innovation:
+
+Scaled the RCM platform from 5 million messages/day to over 1 billion messages/day:
+     Designed a highly scalable distributed messaging platform.
+     Improved throughput, reliability, and availability.
+Built a Unified Omnichannel Communication Platform:
+   Unified channels such as WhatsApp, SMS, RCS, and Google Business Messages under a single platform.
+   Designed for multi-tenancy, routing, extensibility, and high availability.
+Migrated from self-managed WhatsApp infrastructure to Meta Cloud API:
+    Led the migration from on-premises WhatsApp Business infrastructure to Meta Cloud API.
+    Simplified operations, improved reliability, and significantly reduced infrastructure costs.
+Reduced customer onboarding time from 21 days to less than 15 mins:
+    Automated onboarding, configuration, and provisioning.
+     Improved customer experience and accelerated go-to-market.
+Built an AI-driven operations automation / Jeopardy engine :
+      Automated operational workflows using AI and orchestration.
+      Reduced manual intervention and improved operational efficiency.
+
   
   Previously, at Tanla Platforms, I played a key role in scaling the Rich Communication Messaging platform from approximately 5 million messages per day to over 1 billion messages per day using Kafka, Redis, Kubernetes, and event-driven architecture. This improved platform throughput, reduced infrastructure costs by around 30%, and maintained 99.9% availability.
 
