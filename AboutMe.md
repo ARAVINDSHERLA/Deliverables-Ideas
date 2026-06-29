@@ -254,9 +254,9 @@ reducing operational costs, accelerating time-to-market, or enhancing operationa
 Leadership:
 Beyond technology, I enjoy mentoring engineers, driving architecture and design reviews, collaborating across cross-functional teams, and establishing 
 engineering practices that improve software quality and engineering excellence.
+
 Finish with:
-This role is a natural fit because it provides an opportunity to solve challenging engineering problems, shape platform architecture, and 
-contribute to building innovative products that deliver long-term business value.
+This opportunity aligns perfectly with my experience in solving complex engineering problems, shaping platform architecture, and building innovative products that deliver long-term business value.
 
 
 My favorite version:
